@@ -63,7 +63,7 @@ const Signup =()=>{
             <hr/>
         
            <div className="p-4 box mt-3 text-center">
-            Already Have an account? <Link to="/login"> Login </Link>
+            Already Have an account? <Link to="/"> Login </Link>
            </div>
 
         </div>

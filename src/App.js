@@ -16,8 +16,8 @@ function App() {
         <Col>
         <UserAuthContextProvider>
          <Routes>
-           <Route path="/login" element={<Login/>}></Route>
-           <Route path="/" element={<Signup/>}></Route>
+           <Route path="/" element={<Login/>}></Route>
+           <Route path="/signup" element={<Signup/>}></Route>
            <Route path="/home" element={
             <ProtectedRoute>
               <Home/>
