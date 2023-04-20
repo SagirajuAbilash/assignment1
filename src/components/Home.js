@@ -2,14 +2,20 @@
 import { Button } from 'react-bootstrap';
 import { UserUserAuth } from '../context/UserAuthContext';
 
+import { useNavigate } from 'react-router-dom';
+
 
 
 const Home =()=>{
  const {logOut} = UserUserAuth();
+ const navigate = useNavigate();
 
     const handleOut =async()=>{
         try{
           await logOut()
+         
+          navigate("/")
+        
         }catch(err){
         console.log(err);
         }
