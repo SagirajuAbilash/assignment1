@@ -25,7 +25,7 @@ const Home =()=>{
         <>
         <div className='p-4 box mt-3 text-center' >
 
-            <h1 style={{color:'red', marginTop:'100px'}}>Hello Welcome</h1>
+            <h1 style={{color:'red', marginTop:'100px'}}>Hello World</h1>
              <p> <Button variant="primary" onClick={handleOut}>Log Out</Button></p>
         </div>
         
