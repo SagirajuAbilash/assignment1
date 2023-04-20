@@ -4,6 +4,7 @@ import { Form , Alert} from "react-bootstrap";
 import { Button } from "react-bootstrap";
 import GoogleButton from "react-google-button";
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 import { UserUserAuth } from "../context/UserAuthContext";
 
@@ -76,7 +77,7 @@ const Login =()=>{
            </div>
 
            <div className="p-4 box mt-3 text-center">
-            Don't Have an account? <a href="/"> Signup</a>
+            Don't Have an account? <Link to="/"> Signup</Link>
            </div>
 
         </div>

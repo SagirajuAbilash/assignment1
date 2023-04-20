@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import {  useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { Alert, Form } from "react-bootstrap";
 import { Button } from "react-bootstrap";
 import { UserUserAuth } from "../context/UserAuthContext";
@@ -63,7 +63,7 @@ const Signup =()=>{
             <hr/>
         
            <div className="p-4 box mt-3 text-center">
-            Already Have an account? <a href="/login"> Login </a>
+            Already Have an account? <Link to="/login"> Login </Link>
            </div>
 
         </div>
